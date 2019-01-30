@@ -1,0 +1,121 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+@media all and (max-width:30em){
+  .button{
+  display:block;
+  margin:0.2em auto;
+ }
+}
+
+body {
+  background-color: rgb(230,230,230);
+  font-family: 'Raleway', sans-serif;
+  color: #34699a;
+  font-size: 15px;
+  line-height: 1;
+  text-align: left;
+}
+
+h1 {
+  font-size: 30px;
+  color: red;
+  line-height: 1
+}
+h2 {
+  font-size: 19px;
+  line-height: 2
+}
+
+h3 {
+  font-size: 17px
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #FFFFFF;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.movies {
+  text-align: left;
+}
+
+#profile-picture-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+   padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.button{
+  display:inline-block;
+  padding:0.3em 1.2em;
+  margin:0 0.3em 0.3em 0;
+  border-radius:2em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  background-color:#34699a;
+  text-align:center;
+  transition: all 0.2s;
+  }
+
+.button:hover{
+  background-color:#4095c6;
+}
+
+.bouncy{
+ animation:bouncy 5s infinite linear;
+ position:relative;
+}
+@keyframes bouncy {
+ 0%{top:0em}
+ 40%{top:0em}
+ 43%{top:-0.9em}
+ 46%{top:0em}
+ 48%{top:-0.4em}
+ 50%{top:0em}
+ 100%{top:0em;}
+}
+
+#movies-image {
+  width: 150px;
+}
